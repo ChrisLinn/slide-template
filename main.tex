@@ -1,0 +1,81 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+ 
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{array}
+
+\usepackage{graphicx}
+\graphicspath{{./figs/}}
+\usepackage{subfigure}
+\usepackage{multirow}
+\usepackage{xspace}
+
+
+\usepackage{tikz}
+\usetikzlibrary{arrows, shapes, positioning}
+
+
+
+%Information to be included in the title page:
+\title{The Title}
+
+\author{The Author}
+\institute{}
+\date{}
+
+\begin{document}
+
+\frame{\titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+    \frametitle{Summary}
+
+    \tikzstyle{block} = [draw, rectangle]
+    \tikzstyle{property} = [draw, ellipse, font=\tiny]
+
+    % \begin{tikzpicture}[]
+    % \end{tikzpicture}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Section A}
+
+\begin{frame}
+\frametitle{frame title 1}
+
+\begin{definition}[definition 1]
+\end{definition}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{frame title 2}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Section B}
+
+\begin{frame}
+\frametitle{frame title 2}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}[allowframebreaks]
+    \frametitle{References}
+    \bibliographystyle{alpha}
+    \tiny\bibliography{refs}
+\end{frame}
+
+\end{document}
