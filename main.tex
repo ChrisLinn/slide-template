@@ -1,5 +1,8 @@
 \documentclass{beamer}
-\usetheme{Madrid}
+% \usetheme{Madrid}
+\usetheme{CambridgeUS}
+\usecolortheme{beaver}
+% \usetheme{metropolis}
 
 \usepackage{xeCJK}
 \usepackage[utf8]{inputenc}
@@ -14,10 +17,15 @@
 \usepackage{multirow}
 \usepackage{xspace}
 
+\usepackage{cuted, tcolorbox}
 
 \usepackage{tikz}
 \usetikzlibrary{arrows, shapes, positioning}
 
+\newcommand{\TODO}[1]{\textcolor{red}{TODO: #1}}
+\newcommand{\terminal}[1]{\noindent\texttt{> #1}}
+\newcommand{\newl}{\noindent\bigskip\\}
+\newcommand{\boxit}[1]{\begin{tcolorbox}[colframe = gray!20,colback=gray!10]#1\end{tcolorbox}}
 
 
 %Information to be included in the title page:
