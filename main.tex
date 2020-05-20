@@ -8,6 +8,17 @@
 \usepackage{xeCJK}
 \usepackage[utf8]{inputenc}
 
+\usepackage[]{hyperref}
+\hypersetup{
+    pdftitle={title: title title title},
+    pdfauthor={111@111.com},
+    pdfsubject={111},
+    pdfkeywords={111},
+    bookmarksnumbered=true,
+    bookmarksopen=true,
+    bookmarksopenlevel=1,
+}
+
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{array}
@@ -28,6 +39,15 @@
 \newcommand{\newl}{\noindent\bigskip\\}
 \newcommand{\boxit}[1]{\begin{tcolorbox}[colframe = gray!20,colback=gray!10]#1\end{tcolorbox}}
 
+\usepackage{listings}
+\lstdefinestyle{mono}{
+  basicstyle=\small\ttfamily,
+  columns=flexible,
+  breaklines=true,
+  backgroundcolor=\color{lightgray!20},
+  % numbers=left,
+  % stepnumber=1,
+}
 
 %Information to be included in the title page:
 \title{The Title}
